@@ -4,9 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-### Run this command first to install the dependecies
+Run this command first to install the dependecies
 
-npm install react-scripts --save
+### `npm install react-scripts --save`
 
 In the project directory, you can run:
 
