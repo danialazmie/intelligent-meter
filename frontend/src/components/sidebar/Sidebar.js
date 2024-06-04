@@ -41,15 +41,17 @@ export default function Siderbar() {
   };
 
   return (
-    <div className="h-full flex flex-col items-start justify-between px-8 py-6">
-      <div>
-        <img src={Logo} alt="IntelligentMeter Logo" className="h-10" />
-        <div className="flex flex-col mt-6 pl-0.5">{renderNavLinks()}</div>
+    <div className="bg-white shadow-md h-full flex flex-col items-start justify-between px-8 py-6"> 
+      <div className="h-full flex flex-col items-start justify-between px-8 py-6">
+        <div>
+          <img src={Logo} alt="IntelligentMeter Logo" className="h-10" />
+          <div className="flex flex-col mt-6 pl-0.5">{renderNavLinks()}</div>
+        </div>
+        <Link to={"/"} className="h-12 flex items-center gap-3 pl-0.5">
+          <ArrowLeftStartOnRectangleIcon className="size-6" />
+          <span className="pt-0.5">Sign Out</span>
+        </Link>
       </div>
-      <Link to={"/"} className="h-12 flex items-center gap-3 pl-0.5">
-        <ArrowLeftStartOnRectangleIcon className="size-6" />
-        <span className="pt-0.5">Sign Out</span>
-      </Link>
     </div>
   );
 }

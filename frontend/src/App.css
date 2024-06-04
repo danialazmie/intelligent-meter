@@ -1,0 +1,3 @@
+.min-h-screen { /* This may be in your App.css or globally */
+  background-color: #f0f0f0; /* Use the same background color as your original .login-container */
+}
